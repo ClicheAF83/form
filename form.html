@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document Title</title>
+  <!-- Add any necessary CSS stylesheets here -->
+  <link rel="stylesheet" href="style.css">
+  <title>forms</title>
+</head>
+<body>
+  <header>
+    
+  </header>
+  <main>
+    <form>
+        <!--form elements shall go here-->
+        <label for = 'name'> Name:</label>
+        <input type="text" aria-invalid="true" name="name" placeholder="Enter your name">
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password">
+    <br>
+    <Fieldset>
+        <legend>Age:</legend>
+        <label> Choose your age group here</label><br>
+        <input type="radio" id="young" name="AgeGroup" value="0-18">
+        <label for = '0-18'>0-18</label><br>
+
+        <input type="radio" id="adult" name="AgeGroup" value="18-30">
+        <label for = '18-30'>18-30</label><br>
+
+        <input type="radio" id="aged" name="AgeGroup" value="30-45">
+        <label for = '30-45'>30-45</label><br>
+    </Fieldset>
+    <Fieldset>
+        <legend>Gender:</legend>
+        <label> Choose your gender here</label><br>
+        <input type="radio" id="male" name="Gender" value="male">
+        <label for = 'male'>MALE</label><br>
+
+        <input type="radio" id="female" name="Gender" value="female">
+        <label for = 'female'>FEMALE</label><br>
+
+        <input type="radio" id="trans" name="Gender" value="trans">
+        <label for = 'trans'>TRANS</label><br>
+    </Fieldset>
+        <button type="submit">Submit</button>
+    </form>
+    <select name="my-dropdown">
+        <option value="option1">Option 1</option>
+        <option value="option2" selected>Option 2</option>
+        <option value="option3">Option 3</option>
+      </select>
+  </main>
+  <footer>
+   
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
